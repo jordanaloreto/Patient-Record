@@ -1,0 +1,57 @@
+/* Estilo para o cabeçalho (título e subtítulo) */
+#titulo {
+    text-align: center;
+    font-size: 24px;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Estilo para os campos do formulário */
+.campo {
+    margin-bottom: 10px;
+}
+
+/* Estilo para os botões de seleção (select) */
+select {
+    width: 100%;
+    padding: 8px;
+}
+
+/* Estilo para o botão de envio do formulário */
+.botao {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+/* Estilo para os links dentro do botão de envio do formulário */
+.botao a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo para tornar o formulário responsivo */
+@media (max-width: 768px) {
+    form {
+        padding: 10px;
+    }
+    .botao {
+        font-size: 14px;
+    }
+}
